@@ -1,0 +1,106 @@
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    color: black;
+    overflow: hidden;
+    cursor: url("../images/pencil\ \(1\).png"), auto;
+
+}
+
+.bg-img {
+    filter: blur(7px);
+    background-size: cover;
+    width: 100%;
+}
+
+.main_section {
+    position: absolute;
+    top: 70px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.game--title {
+    font-size: 63px;
+    margin: 50px 0px 20px;
+}
+
+.note_img {
+    position: absolute;
+    left: 464px;
+    height: 765px;
+    border: none;
+    width: 785px;
+    top: 5px;
+}
+
+.lines {
+    position: absolute;
+    left: 432px;
+    top: 329px;
+    width: 824px;
+    height: 416px;
+}
+
+.game--status {
+    margin: 10px;
+    font-size: 35px;
+}
+
+.laptop {
+    position: relative;
+}
+
+section {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    cursor: url("../images/pencil\ \(1\).png"), auto;
+    font-family: cursive;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 35px auto;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 2px #333333;
+    border: 1px solid #333333;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--restart {
+    font-family: cursive;
+    cursor: url("../images/pencil\ \(1\).png"), auto;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.button {
+    height: 35px;
+    width: 118px;
+    font-size: 18px;
+    padding: 0;
+}
+
+.button:focus {
+    background-color: aqua;
+}

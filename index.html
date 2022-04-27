@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/tac_tic_toe_icon.ico">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.8.3/dist/paper.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <img src="../images/ticbg.jpg" alt="" class="bg-img">
+    <section>
+        <img src="../images/notebook_back.png" class="note_img">
+        <div class="main_section">
+            <div>
+                <h1 class="game--title">Tic Tac Toe</h1>
+                <button class="button" type="button" id="p1" value="player X" onclick="selectPlayer('X')">player-X
+                </button>
+                <button class="button" type="button" id="p2" value="player O" onclick="selectPlayer('O')">player-O
+                </button>
+            </div>
+            <h2 class="game--status"></h2>
+            <div>
+                <div class="game--container">
+                    <div data-cell-index="0" class="cell" id="btn0" onclick="clickcell('btn0')"></div>
+                    <div data-cell-index="1" class="cell" id="btn1" onclick="clickcell('btn1')"></div>
+                    <div data-cell-index="2" class="cell" id="btn2" onclick="clickcell('btn2')"></div>
+                    <div data-cell-index="3" class="cell" id="btn3" onclick="clickcell('btn3')"></div>
+                    <div data-cell-index="4" class="cell" id="btn4" onclick="clickcell('btn4')"></div>
+                    <div data-cell-index="5" class="cell" id="btn5" onclick="clickcell('btn5')"></div>
+                    <div data-cell-index="6" class="cell" id="btn6" onclick="clickcell('btn6')"></div>
+                    <div data-cell-index="7" class="cell" id="btn7" onclick="clickcell('btn7')"></div>
+                    <div data-cell-index="8" class="cell" id="btn8" onclick="clickcell('btn8')"></div>
+                </div>
+            </div>
+            <div>
+                <button class="game--restart" onclick="restart()">Restart Game</button>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
